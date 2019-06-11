@@ -1,4 +1,10 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.framework;
+
+import pucrs.java.maven.pets.Pet;
+import pucrs.java.maven.pets.PetCatalog;
+import pucrs.java.maven.pets.model.Cat;
+import pucrs.java.maven.pets.model.Dog;
+import pucrs.java.maven.pets.model.Fish;
 
 /**
  * 
@@ -20,6 +26,8 @@ public class PetsApp {
 		pets.add(new Dog("Beethoven", Pet.Gender.MALE));
 		pets.add(new Dog("Marley", Pet.Gender.MALE));
 		pets.add(new Dog("Lassie", Pet.Gender.FEMALE));
+		
+		pets.add(new Fish("Dori", Pet.Gender.FEMALE));
 		
 		pets.doTalk();
 	}

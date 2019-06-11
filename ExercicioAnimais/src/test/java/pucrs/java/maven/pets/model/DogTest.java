@@ -1,9 +1,11 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.model;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
+
+import pucrs.java.maven.pets.model.Dog;
 
 public class DogTest {
 
