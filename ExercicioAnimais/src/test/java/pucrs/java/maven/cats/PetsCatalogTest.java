@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
-public class CatCatalogTest {
+public class PetsCatalogTest {
 
 	@Test
 	public void testCatCatalogIsAvailable() {
-		CatCatalog cats = new CatCatalog();
+		PetCatalog cats = new PetCatalog();
 		assertNotNull(cats);		
 	}
 
@@ -27,7 +27,7 @@ public class CatCatalogTest {
 	
 	@Test
 	public void testAddGarfieldIntoCatCatalog() {
-		CatCatalog cats = new CatCatalog();
+		PetCatalog cats = new PetCatalog();
 		Cat garfield = new Cat("Garfield");
 		cats.add(garfield);
 	}
