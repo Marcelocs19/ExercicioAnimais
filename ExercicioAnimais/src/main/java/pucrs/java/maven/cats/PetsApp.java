@@ -11,18 +11,17 @@ public class PetsApp {
 		
 		System.out.println("Cats!");
 		
-		PetCatalog cats = new PetCatalog();
+		PetCatalog pets = new PetCatalog();
 		
-		cats.add(new Cat("Garfield"));
-		cats.add(new Cat("Tom"));
-		cats.add(new Cat("TopCat"));
+		pets.add(new Cat("Garfield"));
+		pets.add(new Cat("Tom"));
+		pets.add(new Cat("TopCat"));
 		
-		cats.add(new Dog("Beethoven"));
-		cats.add(new Dog("Marley"));
-		cats.add(new Dog("Bub"));
+		pets.add(new Dog("Beethoven"));
+		pets.add(new Dog("Marley"));
+		pets.add(new Dog("Bub"));
 		
-		cats.doMeow();
-		cats.doBark();
+		pets.doTalk();
 	}
 	
 }

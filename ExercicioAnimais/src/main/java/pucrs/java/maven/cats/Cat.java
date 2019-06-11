@@ -1,28 +1,21 @@
 package pucrs.java.maven.cats;
 
-public class Cat {
+public class Cat extends Pet {
 	
-	private String name;
-	
-	
-
 	public Cat(String name) {
-		super();
-		this.name = name;
+		super(name);		
 	}
 	
-	
-	public String getName() {
-		return name;
-	}
-
 	
 	public String meow() {
-		return name + " " +"Meow!";
+		return getName() + " " +"Meow!";
 	}
-		
-	
-	
 
 
+	@Override
+	public String talk() {
+		return meow();
+	}
+			
+	
 }

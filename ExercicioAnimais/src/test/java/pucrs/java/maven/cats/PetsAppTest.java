@@ -10,7 +10,7 @@ public class PetsAppTest {
 
 
 	/**
-	 * 
+	 * A simple test.
 	 */
 	@Test
 	public void testApp() {
