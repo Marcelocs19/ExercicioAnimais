@@ -11,7 +11,7 @@ public class Fish extends Pet{
 	}
 
 	public String glub() {
-		return getName() + " " +"gluub!";
+		return getName() + " " +"Gluub!";
 	}
 	
 	@Override

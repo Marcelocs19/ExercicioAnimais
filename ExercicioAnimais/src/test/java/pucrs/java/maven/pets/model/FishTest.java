@@ -11,7 +11,7 @@ public class FishTest {
 	private Fish dori;
 	
 	@Before
-	void setup() {
+	public void setup() {
 		dori = new Fish("Dori",Pet.Gender.FEMALE); 
 	}
 	

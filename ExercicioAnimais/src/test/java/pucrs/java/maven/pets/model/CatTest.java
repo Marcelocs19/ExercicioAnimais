@@ -17,12 +17,12 @@ public class CatTest {
 	
 	@Test
 	public void testCatHasAName() {
-		assertEquals("Garfield Meow!",garfield.getName());		
+		assertEquals("Garfield Meow!",garfield.talk());		
 	}
 	
 	@Test
 	public void testCatSex() {
-		assertEquals("Garfield Meow!",garfield.getSex());	
+		assertEquals(Pet.Gender.MALE,garfield.getSex());	
 	}
 
 
