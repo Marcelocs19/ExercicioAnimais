@@ -17,7 +17,7 @@ public class CatCatalog {
 	
 	public void doMeow() {
 		for(Cat cat: cats) {
-			
+			System.out.println(cat.meow());
 		}
 	}
 	
