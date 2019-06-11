@@ -5,6 +5,8 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
+import pucrs.java.maven.cats.Pet.Gender;
+
 public class CatTest {
 	
 	@Test
@@ -15,7 +17,7 @@ public class CatTest {
 
 	@Test
 	public void testCatHasAName() {
-		Cat garfield = new Cat("Garfield");
+		Cat garfield = new Cat("Garfield", Pet.Gender.MALE);
 		garfield.meow();
 		assertEquals("Garfield",garfield.getName());		
 	}

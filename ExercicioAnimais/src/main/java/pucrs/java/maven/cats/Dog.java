@@ -3,8 +3,13 @@ package pucrs.java.maven.cats;
 public class Dog extends Pet {
 	
 
+	@Deprecated
 	public Dog(String name) {
-		super(name);
+		super(name, Pet.Gender.MALE);
+	}
+	
+	public Dog(String name,Pet.Gender sex) {
+		super(name, sex);
 	}
 	
 	

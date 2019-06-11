@@ -2,8 +2,8 @@ package pucrs.java.maven.cats;
 
 public class Cat extends Pet {
 	
-	public Cat(String name) {
-		super(name);		
+	public Cat(String name, Pet.Gender sex) {
+		super(name, sex);		
 	}
 	
 	

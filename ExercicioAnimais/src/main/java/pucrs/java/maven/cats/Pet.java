@@ -3,9 +3,18 @@ package pucrs.java.maven.cats;
 public abstract class Pet {
 
 	private String name;
-
-	public Pet(String name) {
+	private Gender sex;
+	
+	public enum Gender {MALE,FEMALE};
+	
+	public Pet(String name, Gender sex) {
+		super();
 		this.name = name;
+		this.sex = sex;
+	}	
+	
+	public Gender getSex() {
+		return sex;
 	}
 
 	public abstract String talk();
